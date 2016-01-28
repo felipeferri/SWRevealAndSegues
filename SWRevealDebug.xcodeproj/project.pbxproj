@@ -14,6 +14,10 @@
 		556836411C57F46000CA1695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 556836401C57F46000CA1695 /* Assets.xcassets */; };
 		556836441C57F46000CA1695 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 556836421C57F46000CA1695 /* LaunchScreen.storyboard */; };
 		5568364F1C57F46000CA1695 /* SWRevealDebugUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5568364E1C57F46000CA1695 /* SWRevealDebugUITests.m */; };
+		5568365B1C57F4A700CA1695 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5568365A1C57F4A700CA1695 /* SWRevealViewController.m */; };
+		5568365E1C57F7B800CA1695 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5568365D1C57F7B800CA1695 /* FirstViewController.m */; };
+		556836611C57F7DD00CA1695 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556836601C57F7DD00CA1695 /* SecondViewController.m */; };
+		556836641C57F7EA00CA1695 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 556836631C57F7EA00CA1695 /* ThirdViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		5568364A1C57F46000CA1695 /* SWRevealDebugUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWRevealDebugUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5568364E1C57F46000CA1695 /* SWRevealDebugUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWRevealDebugUITests.m; sourceTree = "<group>"; };
 		556836501C57F46000CA1695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		556836591C57F4A700CA1695 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		5568365A1C57F4A700CA1695 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		5568365C1C57F7B800CA1695 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		5568365D1C57F7B800CA1695 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		5568365F1C57F7DD00CA1695 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		556836601C57F7DD00CA1695 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		556836621C57F7EA00CA1695 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		556836631C57F7EA00CA1695 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +93,19 @@
 		556836331C57F45F00CA1695 /* SWRevealDebug */ = {
 			isa = PBXGroup;
 			children = (
+				556836591C57F4A700CA1695 /* SWRevealViewController.h */,
+				5568365A1C57F4A700CA1695 /* SWRevealViewController.m */,
 				556836371C57F45F00CA1695 /* AppDelegate.h */,
 				556836381C57F45F00CA1695 /* AppDelegate.m */,
 				5568363A1C57F45F00CA1695 /* ViewController.h */,
 				5568363B1C57F45F00CA1695 /* ViewController.m */,
 				5568363D1C57F45F00CA1695 /* Main.storyboard */,
+				5568365C1C57F7B800CA1695 /* FirstViewController.h */,
+				5568365D1C57F7B800CA1695 /* FirstViewController.m */,
+				5568365F1C57F7DD00CA1695 /* SecondViewController.h */,
+				556836601C57F7DD00CA1695 /* SecondViewController.m */,
+				556836621C57F7EA00CA1695 /* ThirdViewController.h */,
+				556836631C57F7EA00CA1695 /* ThirdViewController.m */,
 				556836401C57F46000CA1695 /* Assets.xcassets */,
 				556836421C57F46000CA1695 /* LaunchScreen.storyboard */,
 				556836451C57F46000CA1695 /* Info.plist */,
@@ -211,9 +231,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				556836611C57F7DD00CA1695 /* SecondViewController.m in Sources */,
 				5568363C1C57F45F00CA1695 /* ViewController.m in Sources */,
 				556836391C57F45F00CA1695 /* AppDelegate.m in Sources */,
+				5568365E1C57F7B800CA1695 /* FirstViewController.m in Sources */,
 				556836361C57F45F00CA1695 /* main.m in Sources */,
+				5568365B1C57F4A700CA1695 /* SWRevealViewController.m in Sources */,
+				556836641C57F7EA00CA1695 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +366,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SWRevealDebug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sailscooter.SWRevealDebug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +378,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SWRevealDebug/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sailscooter.SWRevealDebug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
